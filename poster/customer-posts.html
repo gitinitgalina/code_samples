@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>customer-posts</title>
+    <!--Styles loading here-->
+    <link rel="stylesheet" href="bower_components/materialize/bin/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+/*внимание*/
+    <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--google.charts.load('current', {packages: ['corechart']});-->
+        <!--google.charts.setOnLoadCallback(drawChart);-->
+    <!--</script>-->
+/*внимание*/
+
+
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+</head>
+
+<body class="purple darken-4">
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="ban-group.html.html" class="brand-logo">Poster</a>
+
+
+        <ul class="right hide-on-med-and-down">
+            <li>
+                <nav>
+                    <div class="nav-wrapper">
+                        <form>
+                            <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </li>
+            <!--<li><a  href="#!">Группы</a></li>-->
+            <!--<li><a href="ban-group.html">Бан</a>-->
+
+
+            </li>
+
+            <li><a href="sass.html"><i class="material-icons">input</i></a></li>
+
+
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="collection">
+
+        <a class="collection-item post modal-trigger" href="#modal1">#1 Попки I am a painter.
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <!--todo: разместить график и тд здесь-->
+                <div class="row">
+                    <div class="col s12">
+                        <ul class="tabs">
+                            <li class="tab col s3"><a href="#test1">Статистика</a></li>
+                            <li class="tab col s3"><a class="active" href="#test2">Пост</a></li>
+                        </ul>
+                    </div>
+                    <div id="test1" class="col s12">Статистика
+                        <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>-->
+                        <!--<div id="chart_div"></div>-->
+                    </div>
+                    <div id="test2" class="col s12">
+
+
+                        <h4> #1 Попки I am a painter.</h4>
+
+
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.Clipping happens at the
+                            border of the box; to clip at the character limit an empty custom string can be used ('').
+
+                            This property only affects content that is overflowing a block container element in its
+                            inline
+                            progression direction (not text overflowing at the bottom of a box, for example). Text can
+                            overflow when it is prevented from wrapping (e.g., due to ‘white-space: nowrap’) or a single
+                            word being too long to fit.
+
+                            This CSS property doesn't force an overflow to occur; to do so and make text-overflow to be
+                            applied, the author must apply some additional properties on the element, like setting
+                            overflow
+                            to hidden.Clipping happens at the border of the box; to clip at the character limit an empty
+                            custom string can be used ('').
+
+                            This property only affects content that is overflowing a block container element in its
+                            inline
+                            progression direction (not text overflowing at the bottom of a box, for example). Text can
+                            overflow when it is prevented from wrapping (e.g., due to ‘white-space: nowrap’) or a single
+                            word being too long to fit.
+
+                            This CSS property doesn't force an overflow to occur; to do so and make text-overflow to be
+                            applied, the author must apply some additional properties on the element, like setting
+                            overflow
+                            to hidden.I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.Clipping happens at the
+                            border of the box; to clip at the character limit an empty custom string can be used ('').
+
+                            This property only affects content that is overflowing a block container element in its
+                            inline
+                            progression direction (not text overflowing at the bottom of a box, for example). Text can
+                            overflow when it is prevented from wrapping (e.g., due to ‘white-space: nowrap’) or a single
+                            word being too long to fit.
+
+                            This CSS property doesn't force an overflow to occur; to do so and make text-overflow to be
+                            applied, the author must apply some additional properties on the element, like setting
+                            overflow
+                            to hidden.Clipping happens at the border of the box; to clip at the character limit an empty
+                            custom string can be used ('').
+
+                            This property only affects content that is overflowing a block container element in its
+                            inline
+                            progression direction (not text overflowing at the bottom of a box, for example). Text can
+                            overflow when it is prevented from wrapping (e.g., due to ‘white-space: nowrap’) or a single
+                            word being too long to fit.
+
+                            This CSS property doesn't force an overflow to occur; to do so and make text-overflow to be
+                            applied, the author must apply some additional properties on the element, like setting
+                            overflow
+                            to hidden. </p>
+
+
+                    </div>
+
+                </div>
+
+                <!--<h4>#1 Попки I am a painter.</h4>-->
+                <!--<p>A bunch of text</p>-->
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+            </div>
+        </div>
+
+
+        <!--<a href="#!" class="collection-item  post" s>#456 Ресницы "Sold out" is the just phrase. I was twenty-two after-->
+        <!--that-->
+        <!--show. Apart from quite a lot of money, the way I understand it, I had one oil painting left, three drawings,-->
+        <!--and very little common sense, my most valuable remaining possession. The common sense prevented me from-->
+        <!--believing what the critics said and considering myself a genius, and not only a genius but a painter who-->
+        <!--would always be able to live by painting exactly what he wanted to paint when he wanted to paint it.-->
+        <!--I did, however, think that I could probably afford to marry Leila, rent my own studio, and stop being a-->
+        <!--student.-->
+        <!--But I have never had another show which sold like that first one, although I am a better painter than I was-->
+        <!--then. My work is as contemporary as any; of course it is; how can anyone intelligent and honest paint behind-->
+        <!--his time, deliberately or by accident? But more and more critics support what is called Action Painting and-->
+        <!--Other Art, when a painter is trying to be as different from anyone else as he can. Anyway, it has been clear-->
+        <!--ever since that first sell-out show that I have an old way of seeing things and am really an academic.-->
+        <!--My second show went fairly well because Other Art had not then got very far. But ever since. Not that I-->
+        <!--don't sell a certain amount privately. I do. To the uneducated and even the half-educated my work seems to-->
+        <!--give a good deal of pleasure.-->
+        <!--However, in the last two years things have got very tight.-->
+        <!--<ul class="list-item-badges right">-->
+        <!--<li class="list-item-badge green">45</li>-->
+        <!--<li class="list-item-badge blue">45</li>-->
+        <!--<li class="list-item-badge red">45</li>-->
+        <!--</ul>-->
+        <!--</a>-->
+
+
+        <!--<a href="#!" class="collection-item post">Alvin
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post ">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>
+        <a href="#!" class="collection-item post">Alvin
+
+            <ul class="list-item-badges right">
+                <li class="list-item-badge green">45</li>
+                <li class="list-item-badge blue">45</li>
+                <li class="list-item-badge red">45</li>
+            </ul>
+        </a>-->
+    </div>
+</div>
+<footer class="page-footer">
+    <div class="container">
+        © 2016 Poster
+        <a class="grey-text text-lighten-4 right" href="#">More Links</a>
+    </div>
+</footer>
+<!--big-red-button-->
+<div class="fixed-action-btn vertical" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+        <!--<li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>-->
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">chat</i></a></li>
+        <!--<li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>-->
+        <!--<li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>-->
+    </ul>
+</div>
+<!--/big-red-button-->
+
+<!--Scripts loading here-->
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/materialize/bin/materialize.js"></script>
+<script src="scripts/index.js"></script>
+<script>
+    $(document).ready(function () {
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+    });
+</script>
+
+</body>
+</html>

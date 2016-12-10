@@ -1,0 +1,59 @@
+/*body {*/
+    /*background-color: #f3e5f5;*/
+    /*display: flex;*/
+    /*min-height: 100vh;*/
+    /*flex-direction: column;*/
+/*}*/
+
+/*.page-footer {*/
+    /*flex: 1 0 auto;*/
+/*}*/
+
+/*.footer-copyright {*/
+    /*height: 50px;*/
+/*}*/
+
+/*.nav-wrapper {*/
+    /*background-color: #ab47bc;*/
+/*}*/
+
+/*footer.page-footer {*/
+    /*margin-top: 5px;*/
+    /*padding-top: 5px;*/
+    /*background-color: #ab47bc;*/
+/*}*/
+
+.txtOver {
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+.list-item-badge{
+    display: inline-block;
+padding: 0 10px;
+    border-radius: 2px;
+    color: #fff;
+}
+.list-item-badges {
+    margin: 0;
+}
+.img-container{
+    width: 100%;
+}
+.post{
+
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    text-overflow: ellipsis; /* Многоточие *
+}
